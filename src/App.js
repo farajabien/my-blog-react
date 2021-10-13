@@ -16,6 +16,9 @@ function App() {
 						<Route exact path='/'>
 							<Home />
 						</Route>
+						<Route exact path='/my-blog-react'>
+							<Home />
+						</Route>
 						<Route path='/create'>
 							<CreateBlog />
 						</Route>
